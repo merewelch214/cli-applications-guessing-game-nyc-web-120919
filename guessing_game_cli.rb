@@ -1,7 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   computer_number = rand(6) + 1
-  input = gets.chomp
+  input = gets.chomp.to_s
   p input
   p computer_number
   if input === computer_number
